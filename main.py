@@ -1,5 +1,11 @@
 error = False
 try:
+    import os
+    from os import system
+    system("title " + "Roblox Fee Calculator")
+except:
+    pass
+try:
     import python_percentage
 except:
     error = True
